@@ -24,7 +24,7 @@ Unlike an event-based analysis ("what happened in February 2020?"), this noteboo
 ## What the notebook does
 
 1. **Flood scenarios** — loads the three MSB depth rasters and shows how the flooded area grows from one scenario to the next.
-2. **Roads & critical services** — pulls the road network and three categories of critical facilities (hospitals, fire stations, schools) from OpenStreetMap.
+2. **Roads & critical services** — loads the road network and three categories of critical facilities (hospitals, fire stations, schools), prepared from OpenStreetMap and stored in this repository.
 3. **Depth-dependent road disruption** — classifies every road segment by the water depth on it, following the depth–disruption relationship of Pregnolato et al. (2017):
    - **≥ 0.30 m** → impassable
    - **0.10 – 0.30 m** → passable at reduced speed
@@ -47,8 +47,11 @@ Click the **Open in Colab** badge above. Everything runs in the browser, and the
 | `Karlstad_200_djup.tif` | Flood depth (m), 200-year scenario | MSB |
 | `Karlstad_nmd2018.tif` | National Land Cover Data (NMD2018), clipped to Karlstad | Naturvårdsverket |
 | `SCB_population_Karlstad_5km.gpkg` | Population grid, clipped to the study area | SCB (Statistics Sweden) |
+| `karlstad_drive.graphml` | Drivable road network as a routing graph (used for the isochrones) | OpenStreetMap, via OSMnx |
+| `karlstad_osm.gpkg` | Road network geometries for mapping and flood intersection | OpenStreetMap |
+| `karlstad_pois.gpkg` | Critical facilities: hospitals, fire stations, schools | OpenStreetMap |
 
-Roads and facilities are not stored here; the notebook fetches them live from OpenStreetMap.
+The OpenStreetMap layers are **pre-fetched snapshots**, so the workshop runs the same way every time and doesn't depend on live OSM servers during the session. Because OSM is constantly edited, a fresh download today may differ slightly from these files.
 
 ## What this method can (and can't) tell us
 
