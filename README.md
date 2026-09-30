@@ -63,7 +63,7 @@ It is still a simplified picture. The scenarios are modelled hazard maps, not ob
 
 ## Companion notebook
 
-For a scenario-based version of the same workflow (using official MSB flood-depth scenarios for 50-, 100- and 200-year floods instead of detecting a real flood from radar), see [What If the River Rises?](https://github.com/amaletaa/SESAC_RisCon26_Workshop), built for Karlstad. Because it works with water **depth** rather than a wet/dry mask, it also distinguishes between roads that are slowed down and roads that are completely cut off.
+For an event-based version of the same workflow (detecting a real flood from Sentinel-1 radar imagery instead of using modelled scenarios), see [From Radar to Floods](https://github.com/amaletaa/SESAC-Beginner_EO_Analysi_Series), built on the February 2020 floods in the Viskan valley (Borås–Skene, Copernicus EMS activation EMSR427). Because it starts from satellite observations of an actual event, it shows where water *really* appeared, day or night and through cloud, although it can only tell flooded from not flooded, without depth.
 
 ## Credits & data licenses
 
