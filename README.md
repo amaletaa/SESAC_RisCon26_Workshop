@@ -1,3 +1,5 @@
+Built for the **SESAC workshop at RisCon26, Karlstad University,10/2026**. 
+
 # What If the River Rises? Flood Scenarios & Critical Service Accessibility in Karlstad
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amaletaa/SESAC_RisCon26_Workshop/blob/main/RisCon26_SESAC.ipynb)
