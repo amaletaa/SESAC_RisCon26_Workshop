@@ -3,6 +3,7 @@ Built for the **SESAC workshop at RisCon26, Karlstad University,10/2026**.
 # Flood Scenarios & Critical Service Accessibility in Karlstad
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amaletaa/SESAC_RisCon26_Workshop/blob/main/RisCon26_SESAC_workshop.ipynb)
+![License](https://img.shields.io/badge/code-MIT-blue)
 
 A hands-on geospatial workshop notebook that asks one practical question: **if Karlstad floods, who can still reach a hospital, a fire station or a school in time, and who can't?** It takes official flood-depth scenarios, lays them over the real road network, and measures how emergency accessibility shrinks as the water rises.
 
